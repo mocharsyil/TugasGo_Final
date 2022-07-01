@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context="id.ac.uinsgd.kelompok2.tugasgo.MainActivity2">
 
     <Button
@@ -11,7 +12,7 @@
         android:layout_width="156dp"
         android:layout_height="50dp"
         android:backgroundTint="#FFBD59"
-        android:text="To Do LIst"
+        android:text="Catatan"
         android:textColor="#2C423D"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +51,9 @@
         android:id="@+id/logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#BD0202"
         android:text="logout"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.917"

@@ -15,16 +15,33 @@
         <entry key="..\:/android/TugasGoLogin/app/src/main/res/layout/content_scrolling.xml" value="0.1390625" />
         <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.159765625" />
         <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.104296875" />
-        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_basdat.xml" value="0.25" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_akhlak.xml" value="0.24372294372294373" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_basdat.xml" value="0.33" />
         <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_daftar.xml" value="0.33" />
-        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_elibrary.xml" value="0.29322916666666665" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_elibrary.xml" value="0.33" />
         <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_kelas.xml" value="0.29322916666666665" />
-        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_main.xml" value="0.29322916666666665" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_main2.xml" value="0.29322916666666665" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_main3.xml" value="0.22" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_pbo.xml" value="0.24372294372294373" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_pdf.xml" value="0.1" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_pdf2.xml" value="0.11710526315789474" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_pdf_rpl.xml" value="0.24372294372294373" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_prak_basdat.xml" value="0.24372294372294373" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_prak_pbo.xml" value="0.24372294372294373" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_prak_so.xml" value="0.24372294372294373" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_probstat.xml" value="0.24372294372294373" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_rpl.xml" value="0.33" />
         <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_scrolling.xml" value="0.29322916666666665" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_so.xml" value="0.33" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_strat_algo.xml" value="0.33" />
         <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/activity_to_do.xml" value="0.29322916666666665" />
-        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/content_scrolling.xml" value="0.33" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/content_scrolling.xml" value="0.24372294372294373" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/input_form.xml" value="0.24372294372294373" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/layout/layout_item.xml" value="0.22" />
         <entry key="..\:/android/Tugas_go-main/app/src/main/res/menu/menu_scrolling.xml" value="0.29322916666666665" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1835" />
+        <entry key="..\:/android/Tugas_go-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>

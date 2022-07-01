@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import id.ac.uinsgd.kelompok2.tugasgologin.MainActivity3;
 import id.ac.uinsgd.kelompok2.tugasgologin.R;
 
 public class MainActivity2 extends AppCompatActivity {
@@ -77,7 +78,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     public void ToDoActivity(){
-        Intent intent = new Intent(this, ToDoActivity.class);
+        Intent intent = new Intent(this, MainActivity3.class);
         startActivity(intent);
     }
 

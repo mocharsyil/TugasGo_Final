@@ -12,9 +12,11 @@ import id.ac.uinsgd.kelompok2.tugasgologin.BasdatActivity;
 import id.ac.uinsgd.kelompok2.tugasgologin.PBO_Activity;
 import id.ac.uinsgd.kelompok2.tugasgologin.PrakBasdatActivity;
 import id.ac.uinsgd.kelompok2.tugasgologin.PrakPBO_Activity;
+import id.ac.uinsgd.kelompok2.tugasgologin.PrakSOActivity;
 import id.ac.uinsgd.kelompok2.tugasgologin.ProbstatActivity;
 import id.ac.uinsgd.kelompok2.tugasgologin.R;
 import id.ac.uinsgd.kelompok2.tugasgologin.RPL_Activity;
+import id.ac.uinsgd.kelompok2.tugasgologin.SOActivity;
 import id.ac.uinsgd.kelompok2.tugasgologin.StratAlgoActivity;
 
 public class KelasActivity extends AppCompatActivity {
@@ -26,6 +28,8 @@ public class KelasActivity extends AppCompatActivity {
     private Button PrakPBO;
     private Button StratAlgo;
     private Button Probstat;
+    private Button SistemOperasi;
+    private Button PrakSO;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,6 +100,22 @@ public class KelasActivity extends AppCompatActivity {
             }
         });
 
+        SistemOperasi = (Button) findViewById(R.id.SistemOperasi);
+        SistemOperasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                SOActivity();
+            }
+        });
+
+        PrakSO = (Button) findViewById(R.id.PrakSO);
+        PrakSO.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PrakSOActivity();
+            }
+        });
+
 
 
     }
@@ -137,6 +157,16 @@ public class KelasActivity extends AppCompatActivity {
 
     public void ProbstatActivity(){
         Intent intent = new Intent(this, ProbstatActivity.class);
+        startActivity(intent);
+    }
+
+    public void SOActivity(){
+        Intent intent = new Intent(this, SOActivity.class);
+        startActivity(intent);
+    }
+
+    public void PrakSOActivity(){
+        Intent intent = new Intent(this, PrakSOActivity.class);
         startActivity(intent);
     }
 
