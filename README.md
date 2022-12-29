@@ -12,8 +12,8 @@
 
 <br>
 
-[![12070559](https://img.shields.io/badge/051-M.%20Syarifuddin-blue)](https://github.com/syarif2002) 
-  [![1207050060](https://img.shields.io/badge/049-Mahran%20Rangga%20Basyus-blue)](https://github.com/Mahran24-arch) [![1207050063](https://img.shields.io/badge/085-Moch.%20Arsyil%20Albany-blue)](https://github.com/mocharsyil) [![1207050065](https://img.shields.io/badge/119-Muhammad%20Afian%20Anwar-blue)](https://github.com/AfianAnwar) [!
+[![12070559](https://img.shields.io/badge/059-M.%20Syarifuddin-blue)](https://github.com/syarif2002) 
+  [![1207050060](https://img.shields.io/badge/060-Mahran%20Rangga%20Basyus-blue)](https://github.com/Mahran24-arch) [![1207050063](https://img.shields.io/badge/063-Moch.%20Arsyil%20Albany-blue)](https://github.com/mocharsyil) [![1207050065](https://img.shields.io/badge/065-Muhammad%20Afian%20Anwar-blue)](https://github.com/AfianAnwar)
   <br> [Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 </div>
