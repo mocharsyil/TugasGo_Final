@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import id.ac.uinsgd.kelompok2.tugasgologin.MainActivity;
 import id.ac.uinsgd.kelompok2.tugasgologin.MainActivity3;
 import id.ac.uinsgd.kelompok2.tugasgologin.R;
 
@@ -17,6 +18,7 @@ public class MainActivity2 extends AppCompatActivity {
     private Button buttonKelas;
     private Button buttonTodo;
     private Button buttonElibrary;
+    private Button ourtim;
     private Button logout;
 
     FirebaseAuth mAuth;
@@ -47,6 +49,14 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 E_libraryActivity();
+            }
+        });
+
+        ourtim = (Button) findViewById(R.id.ourtim);
+        ourtim.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MahasiswaActivity();
             }
         });
 
@@ -86,4 +96,11 @@ public class MainActivity2 extends AppCompatActivity {
         Intent intent = new Intent(this, E_libraryActivity.class);
         startActivity(intent);
     }
+
+    public void MahasiswaActivity(){
+        Intent intent = new Intent(this, MahasiswaActivity.class);
+        startActivity(intent);
+    }
+
+
 }
