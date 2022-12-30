@@ -39,3 +39,6 @@ Aplikasi ini ditujukan kepada mahasiswa yang sering lupa absen dan lupa tugas.
 2.  Memberikan informasi mata kuliah
 3.  Memberikan nontifikasi absen
 4.  File E-Library
+
+## Pitch Deck
+Pitch deck Kelompok 2 dapat dilihat pada link berikut [Pitch Deck](https://pitch.com/public/6cb4f7d9-7a2c-4c19-837f-08dc6fe1385c)
