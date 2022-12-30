@@ -2,7 +2,6 @@ package id.ac.uinsgd.kelompok2.tugasgologin;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.DialogFragment;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -18,10 +17,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-
-import id.ac.uinsgd.kelompok2.tugasgo.Catatan;
-import id.ac.uinsgd.kelompok2.tugasgo.DialogForm;
-import id.ac.uinsgd.kelompok2.tugasgo.RecyclerAdapter;
 
 public class MainActivity3 extends AppCompatActivity {
 

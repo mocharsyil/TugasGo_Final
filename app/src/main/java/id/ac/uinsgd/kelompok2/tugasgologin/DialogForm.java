@@ -1,4 +1,4 @@
-package id.ac.uinsgd.kelompok2.tugasgo;
+package id.ac.uinsgd.kelompok2.tugasgologin;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -19,8 +19,6 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-
-import id.ac.uinsgd.kelompok2.tugasgologin.R;
 
 public class DialogForm extends DialogFragment {
     String nama,catatan,key, pilih;

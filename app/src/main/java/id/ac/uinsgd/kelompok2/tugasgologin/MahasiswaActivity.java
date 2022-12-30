@@ -1,4 +1,4 @@
-package id.ac.uinsgd.kelompok2.tugasgo;
+package id.ac.uinsgd.kelompok2.tugasgologin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -43,72 +43,93 @@ public class MahasiswaActivity extends AppCompatActivity {
         mahasiswa3 = findViewById(R.id.syarif);
         mahasiswa4 = findViewById(R.id.mahran);
 
-//        tampilData();
+        tampilData();
     }
 
-//    private void tampilData() {
-//        loading = ProgressDialog.show(MahasiswaActivity.this, "Memuat Data", "Mohon Tunggu...");
-//        RequestQueue queue = Volley.newRequestQueue(this);
-//        String url = "https://fir-api-16c44-default-rtdb.firebaseio.com/-NKVwspVe1p3-R3oi3yW.json?auth=HNHAG2Laryv6F8IJtvxyijV525VQGwZu9oX07guH";
-//        JSONObject jsonObject = new JSONObject();
-//        final String requestBody = jsonObject.toString();
+    private void tampilData() {
+        loading = ProgressDialog.show(MahasiswaActivity.this, "Memuat Data", "Mohon Tunggu...");
+        RequestQueue queue = Volley.newRequestQueue(this);
+        String url = "https://fir-api-16c44-default-rtdb.firebaseio.com/-NKVwspVe1p3-R3oi3yW.json?auth=HNHAG2Laryv6F8IJtvxyijV525VQGwZu9oX07guH";
+        JSONObject jsonObject = new JSONObject();
+        final String requestBody = jsonObject.toString();
+
+        StringRequest stringRequest = new StringRequest(
+                Request.Method.GET, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                try {
+                    JSONArray jo = new JSONArray(response);
+                    Log.d("arsyil", jo.getJSONObject(0).getString("nama"));
+                    String arsyil = jo.getJSONObject(0).getString("nama");
+                    mahasiswa1.setText(arsyil);
+                    loading.cancel();
+
+                    Log.d("afian", jo.getJSONObject(1).getString("nama"));
+                    String afian = jo.getJSONObject(1).getString("nama");
+                    mahasiswa2.setText(afian);
+                    loading.cancel();
+
+                    Log.d("syarif", jo.getJSONObject(2).getString("nama"));
+                    String syarif = jo.getJSONObject(2).getString("nama");
+                    mahasiswa3.setText(syarif);
+                    loading.cancel();
+
+                    Log.d("mahran", jo.getJSONObject(3).getString("nama"));
+                    String mahran = jo.getJSONObject(3).getString("nama");
+                    mahasiswa4.setText(mahran);
+                    loading.cancel();
+
+
+                    Log.d("arsyil", jo.getJSONObject(0).getString("nim"));
+                    String arsyilnim = jo.getJSONObject(0).getString("nim");
+                    nim1.setText(arsyilnim);
+                    loading.cancel();
+
+                    Log.d("afian", jo.getJSONObject(1).getString("nim"));
+                    String afiannim = jo.getJSONObject(1).getString("nim");
+                    nim2.setText(afiannim);
+                    loading.cancel();
+
+                    Log.d("syarif", jo.getJSONObject(2).getString("nim"));
+                    String syarifnim = jo.getJSONObject(2).getString("nim");
+                    nim3.setText(syarifnim);
+                    loading.cancel();
+
+                    Log.d("mahran", jo.getJSONObject(3).getString("nim"));
+                    String mahrannim = jo.getJSONObject(3).getString("nim");
+                    nim4.setText(mahrannim);
+                    loading.cancel();
+
+
+
+//                    Log.d("spaghetti", jo.getJSONObject(1).getString("details"));
+//                    String spaghetti = jo.getJSONObject(1).getString("details");
+//                    spaghetti_description.setText(spaghetti);
+//                    loading.cancel();
 //
-//        StringRequest stringRequest = new StringRequest(
-//                Request.Method.GET, url, new Response.Listener<String>() {
-//            @Override
-//            public void onResponse(String response) {
-//                try {
-////                    JSONArray jo = new JSONArray(response);
-////                    Log.d("arsyil", jo.getJSONObject(0).getString("nama"));
-////                    String arsyil = jo.getJSONObject(0).getString("nama");
-////                    mahasiswa1.setText(arsyil);
-////                    loading.cancel();
-////
-////                    Log.d("afian", jo.getJSONObject(0).getString("nama"));
-////                    String afian = jo.getJSONObject(0).getString("nama");
-////                    mahasiswa2.setText(afian);
-////                    loading.cancel();
-////
-////                    Log.d("syarif", jo.getJSONObject(0).getString("nama"));
-////                    String syarif = jo.getJSONObject(0).getString("nama");
-////                    mahasiswa3.setText(syarif);
-////                    loading.cancel();
-////
-////                    Log.d("mahran", jo.getJSONObject(0).getString("nama"));
-////                    String mahran = jo.getJSONObject(0).getString("nama");
-////                    mahasiswa4.setText(mahran);
-////                    loading.cancel();
+//                    Log.d("burger", jo.getJSONObject(2).getString("details"));
+//                    String burger = jo.getJSONObject(2).getString("details");
+//                    burger_description.setText(burger);
+//                    loading.cancel();
 //
-//
-//
-////                    Log.d("spaghetti", jo.getJSONObject(1).getString("details"));
-////                    String spaghetti = jo.getJSONObject(1).getString("details");
-////                    spaghetti_description.setText(spaghetti);
-////                    loading.cancel();
-////
-////                    Log.d("burger", jo.getJSONObject(2).getString("details"));
-////                    String burger = jo.getJSONObject(2).getString("details");
-////                    burger_description.setText(burger);
-////                    loading.cancel();
-////
-////                    Log.d("steak", jo.getJSONObject(3).getString("details"));
-////                    String steak = jo.getJSONObject(3).getString("details");
-////                    steak_description.setText(steak);
-////                    loading.cancel();
-//
-//
-////                } catch (JSONException e) {
-////                    e.printStackTrace();
-////                }
-////            }
-////        }, new Response.ErrorListener() {
-////            @Override
-////            public void onErrorResponse(VolleyError error) {
-////                loading.cancel();
-////                Toast.makeText(MahasiswaActivity.this, "Gagal mengambil Rest Api" + error, Toast.LENGTH_SHORT).show();
-////            }
-//        }
-//        );
-//        queue.add(stringRequest);
-//    }
+//                    Log.d("steak", jo.getJSONObject(3).getString("details"));
+//                    String steak = jo.getJSONObject(3).getString("details");
+//                    steak_description.setText(steak);
+//                    loading.cancel();
+
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                loading.cancel();
+                Toast.makeText(MahasiswaActivity.this, "Gagal mengambil Rest Api" + error, Toast.LENGTH_SHORT).show();
+            }
+        }
+        );
+        queue.add(stringRequest);
+    }
 }

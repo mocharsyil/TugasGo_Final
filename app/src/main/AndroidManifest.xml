@@ -12,9 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TugasGoLogin">
         <activity
+            android:name=".MahasiswaActivity"
+            android:exported="false">
+        </activity>
+        <activity
             android:name=".MainActivity3"
             android:exported="false" />
-
         <activity
             android:name=".PrakSOActivity"
             android:exported="false" />
@@ -22,7 +25,7 @@
             android:name=".SOActivity"
             android:exported="false" />
         <activity
-            android:name="id.ac.uinsgd.kelompok2.tugasgo.PdfActivity"
+            android:name=".PdfActivity"
             android:exported="false" />
         <activity
             android:name="id.ac.uinsgd.kelompok2.tugasgologin.pdfRplActivity"
@@ -52,28 +55,32 @@
             android:name=".BasdatActivity"
             android:exported="false" />
         <activity
-            android:name="id.ac.uinsgd.kelompok2.tugasgo.DaftarActivity"
+            android:name=".DaftarActivity"
             android:exported="false" />
         <activity
-            android:name="id.ac.uinsgd.kelompok2.tugasgo.ScrollingActivity"
+            android:name=".ScrollingActivity"
             android:exported="false"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/Theme.TugasGoLogin.NoActionBar" />
         <activity
-            android:name="id.ac.uinsgd.kelompok2.tugasgo.E_libraryActivity"
+            android:name=".E_libraryActivity"
             android:exported="false" />
         <activity
-            android:name="id.ac.uinsgd.kelompok2.tugasgo.ToDoActivity"
+            android:name=".ToDoActivity"
             android:exported="false" />
         <activity
-            android:name="id.ac.uinsgd.kelompok2.tugasgo.KelasActivity"
+            android:name=".KelasActivity"
             android:exported="false" />
         <activity
-            android:name="id.ac.uinsgd.kelompok2.tugasgo.MainActivity2"
+            android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name="id.ac.uinsgd.kelompok2.tugasgo.MainActivity"
+            android:name=".toolbar"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

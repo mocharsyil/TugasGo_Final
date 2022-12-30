@@ -102,5 +102,22 @@
     <string name="action_settings">Settings</string>
     <string name="catatanForm">Catatan</string>
     <string name="nama">Nama</string>
+    <string name="mahasiswa1">Moch. Arsyil Albany</string>
+    <string name="nim1">1207050063</string>
+    <string name="mahasiswa2">Muhammad Afian Anwar</string>
+    <string name="nim2"> </string>
+    <string name="mahasiswa3">M. Syarifuddin</string>
+    <string name="nim3">1207050063</string>
+    <string name="mahasiswa4">Mahran Rangga Basyus</string>
+    <string name="nim4">1207050063</string>
     <string name="catatan">Catatan</string>
+
+    <string name="peperoni_pizza">Peperoni Pizza</string>
+    <string name="spaghetti">Spaghetti</string>
+    <string name="burger">Burger</string>
+    <string name="Steak">Steak</string>
+    <string name="peperoni_pizza_info">Cocok bagi anda yang ingin merasakan pizza original dengan taburan keju dan daging asap yang lezat </string>
+    <string name="spaghetti_info">Cocok bagi anda yang ingin merasakan spaghetti oigin dengan bumbu yang oriental</string>
+    <string name="burger_info">Cocok bagi anda yang ingin merasakaan kelembutan burger berlapisan keju, sayuran dan daging yang tebal</string>
+    <string name="steak_info">Cocok bagi anda yang ingin merasakan lezatnya daging</string>
 </resources>

@@ -1,4 +1,4 @@
-package id.ac.uinsgd.kelompok2.tugasgo;
+package id.ac.uinsgd.kelompok2.tugasgologin;
 
 public class Catatan {
     private String key;

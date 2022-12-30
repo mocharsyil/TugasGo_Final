@@ -1,4 +1,4 @@
-package id.ac.uinsgd.kelompok2.tugasgo;
+package id.ac.uinsgd.kelompok2.tugasgologin;
 
 import android.os.Bundle;
 import com.google.android.material.appbar.CollapsingToolbarLayout;

@@ -8,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="id.ac.uinsgd.kelompok2.tugasgo.ScrollingActivity">
+    tools:context=".ScrollingActivity">
 
     <ImageButton
         android:id="@+id/imageButton"

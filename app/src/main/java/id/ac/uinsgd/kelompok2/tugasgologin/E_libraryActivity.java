@@ -1,4 +1,4 @@
-package id.ac.uinsgd.kelompok2.tugasgo;
+package id.ac.uinsgd.kelompok2.tugasgologin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,9 +7,6 @@ import android.os.Bundle;
 
 import android.view.View;
 import android.widget.ImageButton;
-
-import id.ac.uinsgd.kelompok2.tugasgologin.R;
-import id.ac.uinsgd.kelompok2.tugasgologin.pdfRplActivity;
 
 public class E_libraryActivity extends AppCompatActivity {
     ImageButton imageButton,imageButton2;

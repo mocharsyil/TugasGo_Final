@@ -1,4 +1,4 @@
-package id.ac.uinsgd.kelompok2.tugasgo;
+package id.ac.uinsgd.kelompok2.tugasgologin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,19 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
-import id.ac.uinsgd.kelompok2.tugasgologin.MainActivity;
-import id.ac.uinsgd.kelompok2.tugasgologin.MainActivity3;
-import id.ac.uinsgd.kelompok2.tugasgologin.R;
 
 public class MainActivity2 extends AppCompatActivity {
     private Button buttonKelas;
     private Button buttonTodo;
     private Button buttonElibrary;
-    private Button ourtim;
+    private TextView ourtim;
     private Button logout;
 
     FirebaseAuth mAuth;
@@ -52,7 +49,7 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
-        ourtim = (Button) findViewById(R.id.ourtim);
+        ourtim = (TextView) findViewById(R.id.ourtim);
         ourtim.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

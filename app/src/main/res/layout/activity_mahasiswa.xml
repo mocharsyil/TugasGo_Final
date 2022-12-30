@@ -4,6 +4,138 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="id.ac.uinsgd.kelompok2.tugasgo.MahasiswaActivity">
+    tools:context=".MahasiswaActivity">
+    <include layout="@layout/toolbar" />
+
+
+
+    <ImageView
+        android:id="@+id/pepperoni"
+        android:layout_width="110dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:srcCompat="@drawable/circle_cropped__27__1" />
+
+    <ImageView
+        android:id="@+id/spaghetti"
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pepperoni"
+        app:srcCompat="@drawable/circle_cropped__26__1" />
+
+    <ImageView
+        android:id="@+id/burger"
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spaghetti"
+        app:srcCompat="@drawable/circle_cropped__25__1" />
+
+    <ImageView
+        android:id="@+id/steak"
+        android:layout_width="110dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/burger"
+        app:srcCompat="@drawable/circle_cropped__25__2" />
+
+    <TextView
+        android:id="@+id/arsyil"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/mahasiswa1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pepperoni"
+        app:layout_constraintTop_toTopOf="@+id/pepperoni" />
+
+    <TextView
+        android:id="@+id/afian"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/mahasiswa2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spaghetti"
+        app:layout_constraintTop_toTopOf="@+id/spaghetti" />
+
+    <TextView
+        android:id="@+id/syarif"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/mahasiswa3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/burger"
+        app:layout_constraintTop_toTopOf="@+id/burger" />
+
+    <TextView
+        android:id="@+id/mahran"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/mahasiswa4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/steak"
+        app:layout_constraintTop_toTopOf="@+id/steak" />
+
+    <TextView
+        android:id="@+id/nim1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/nim1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/pepperoni"
+        app:layout_constraintTop_toTopOf="@+id/arsyil" />
+
+    <TextView
+        android:id="@+id/nim2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/nim2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/spaghetti"
+        app:layout_constraintTop_toTopOf="@+id/afian" />
+
+    <TextView
+        android:id="@+id/nim3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/nim3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/burger"
+        app:layout_constraintTop_toTopOf="@+id/syarif" />
+
+    <TextView
+        android:id="@+id/nim4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/nim4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/steak"
+        app:layout_constraintTop_toTopOf="@+id/mahran" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
