@@ -4,7 +4,7 @@
 ![Teams](https://img.shields.io/badge/Our%20Team-Team%202-blue)
 <div align='center'>
 
-<img src="img/4.jpg" width="128" margin-right="10"/>
+<img src="img/4.jpg" width="128" padding-right="10"/>
 <img src="img/3.png" width="128"/>
 <img src="img/1.png" width="128"/>
 <img src="img/2.png" width="128"/>
@@ -41,3 +41,11 @@ Aplikasi ini ditujukan kepada mahasiswa yang sering lupa absen dan lupa tugas.
 
 ## Pitch Deck
 Pitch deck Kelompok 2 dapat dilihat pada link berikut [Pitch Deck](https://pitch.com/public/6cb4f7d9-7a2c-4c19-837f-08dc6fe1385c)
+
+## Screenshoot
+
+<img src="img/ss1.png" />
+<img src="img/ss2.png" />
+<img src="img/ss3.png" />
+<img src="img/ss4.png" />
+
