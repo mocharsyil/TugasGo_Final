@@ -4,7 +4,7 @@
 ![Teams](https://img.shields.io/badge/Our%20Team-Team%202-blue)
 <div align='center'>
 
-<img src="img/4.png" width="128"/>
+<img src="img/4.jpg" width="128"/>
 <img src="img/3.png" width="128"/>
 <img src="img/1.png" width="128"/>
 <img src="img/2.png" width="128"/>
