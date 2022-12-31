@@ -44,8 +44,8 @@ Pitch deck Kelompok 2 dapat dilihat pada link berikut [Pitch Deck](https://pitch
 
 ## Screenshoot
 
-<img src="img/ss1.png" />
-<img src="img/ss2.png" />
-<img src="img/ss3.png" />
-<img src="img/ss4.png" />
+<img src="img/ss1.png" width="360" height="720" />
+<img src="img/ss2.png" width="360" height="720"/>
+<img src="img/ss3.png" width="360" height="720"/>
+<img src="img/ss4.png" width="360" height="720"/>
 
